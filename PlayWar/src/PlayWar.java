@@ -41,13 +41,7 @@ public class PlayWar
 						//System.out.println(playerHand2.get(i).getRank() + " of " + playerHand2.get(i).getSuit());
 					}
 			}
-		// Compare values of cards
-		//comment
-		//more lines
-		//charcter 
-		//more line 
-		//anotbher line
-		//another comment
+
 		public static void compareCards()
 		{
 		for(int i = 0; i < 26; i++)	
