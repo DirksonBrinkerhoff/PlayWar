@@ -18,11 +18,11 @@ public class PlayWar
 		// Main method
 		public static void main(String[] args)
 			{
+				AsciiArt.makeArt();
 				Deck.addCards();	
 				Deck.shuffle();
 				shufflePlayerHands();
-				compareCards();
-				
+				compareCards();				
 			}
 		//new comment
 		// Shuffle player hand
