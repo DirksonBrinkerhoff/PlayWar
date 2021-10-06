@@ -89,7 +89,7 @@ public class PlayWar
 							playerHand2.add(playerHand1.get(i));
 							player2Total += 4;
 						}
-					
+					//changes from home day 2
 				}
 			System.out.println();
 			System.out.println("The score: ");
