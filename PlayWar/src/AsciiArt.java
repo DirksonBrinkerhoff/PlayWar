@@ -10,7 +10,12 @@ public class AsciiArt
 			System.out.println("|____V||  .  ||(_'_)||( v )|");
 			System.out.println("       |____V||  |  || \\ / |");
 			System.out.println("              |____V||  .  |");
-			System.out.println("                     |____V|");
-			
+			System.out.println("                     |____V| _____");
+			System.out.println("                            |Joker|  ");
+			System.out.println("                            |==%, |     ");
+			System.out.println("                            | \\/>\\|");
+			System.out.println("                            | _>^^|");
+			System.out.println("                            |/_\\/_|");
+
 		}
 	}

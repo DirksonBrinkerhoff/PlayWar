@@ -10,7 +10,7 @@ public class Deck
 		// Creating the array list
 		public static void addCards()
 		{
-			System.out.println("Welcome to War!!! When you're ready to start, please type 'ready'");
+			System.out.println("Welcome to War!!! When you're ready to start, please hit enter");
 			PlayWar.userStringInput.nextLine();
 			deck.add(new Card("ace", "hearts", 14));
 	        deck.add(new Card("ace", "clubs", 14));
