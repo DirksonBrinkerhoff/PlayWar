@@ -15,8 +15,8 @@ public class PlayWar
 		static int player1Total = 0;
 		static int player2Total = 0;
 		
-		// Main method
-		public static void main(String[] args)
+	// Main method
+	public static void main(String[] args)
 			{
 				AsciiArt.makeArt();
 				Deck.addCards();	
@@ -24,9 +24,9 @@ public class PlayWar
 				shufflePlayerHands();
 				compareCards();				
 			}
-		//new comment
-		// Shuffle player hand
-		public static void shufflePlayerHands()
+	//new comment
+	// Shuffle player hand
+	public static void shufflePlayerHands()
 			{
 				// For loop for player hand 1
 				for(int i = 0; i < 26; i++)
@@ -42,7 +42,7 @@ public class PlayWar
 					}
 			}
 
-		public static void compareCards()
+	public static void compareCards()
 		{
 		for(int i = 0; i < 26; i++)	
 			{
@@ -66,7 +66,7 @@ public class PlayWar
 					playerHand2.add(playerHand1.get(i));
 					player2Total += 2;
 				}
-			else
+			else if(playerHand2.get(i).getValue() == playerHand1.get(i).getValue())
 				{
 					i++;
 					System.out.println("IT'S A TIE!!! Player 1 and player 2 redraw!!");
@@ -89,12 +89,24 @@ public class PlayWar
 							playerHand2.add(playerHand1.get(i));
 							player2Total += 4;
 						}
-					//changes from home day 2
+				}
+			else
+				{
+					if(player1Total > player2Total)
+						{
+							System.out.println("Player 1 wins!!!!");
+						}
+					else 
+						{
+							System.out.println("Player 2 wins!!!");
+						}
 				}
 			System.out.println();
 			System.out.println("The score: ");
 			System.out.println("Player 1: " + player1Total);
 			System.out.println("Player 2: " + player2Total);
 			}
-		}
 	}
+}
+	
+

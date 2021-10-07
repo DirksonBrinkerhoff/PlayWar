@@ -6,16 +6,12 @@ public class AsciiArt
 			System.out.println("|A .  | _____");
 			System.out.println("| /.\\ ||A ^  | _____");
 			System.out.println("|(_._)|| / \\ ||A _  | _____");
-			System.out.println("|  |  || \\ / || ( ) ||A_ _ |");
-			System.out.println("|____V||  .  ||(_'_)||( v )|");
-			System.out.println("       |____V||  |  || \\ / |");
-			System.out.println("              |____V||  .  |");
-			System.out.println("                     |____V| _____");
-			System.out.println("                            |Joker|  ");
-			System.out.println("                            |==%, |     ");
-			System.out.println("                            | \\/>\\|");
-			System.out.println("                            | _>^^|");
+			System.out.println("|  |  || \\ / || ( ) ||A_ _ | _____");
+			System.out.println("|____V||  .  ||(_'_)||( v )||Joker|");
+			System.out.println("       |____V||  |  || \\ / ||==%, | ");
+			System.out.println("              |____V||  .  || \\/>\\|");
+			System.out.println("                     |____V|| _>^^|");
 			System.out.println("                            |/_\\/_|");
-
+			System.out.println("");
 		}
 	}
